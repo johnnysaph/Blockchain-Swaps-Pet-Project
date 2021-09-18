@@ -9,7 +9,7 @@ import logging
 import sys
 
 # paths
-log_file_name = "./tokens_reserves_5.log"
+log_file_name = "./tokens_reserves.log"
 # queries
 query_select_tokens = "SELECT * FROM tokens"
 query_insert_reserves = "INSERT INTO reserve (swap_id, tokenA, tokenB, reserveA, reserveB, updated_at) VALUES (%s, %s, %s, %s, %s, %s)"
